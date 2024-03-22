@@ -17,7 +17,7 @@ proyecto1.addEventListener('click', () =>{
                     </div>
 
                     <div class="texto-contenedor">
-                        <h2>RevNotes</h2>
+                        <h2 translate="no">RevNotes</h2>
 
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia provident minima iure rerum aperiam modi cumque eius, corrupti doloribus. Distinctio ut dolores nemo error sed pariatur ipsa culpa impedit nisi.</p>
 
@@ -73,7 +73,7 @@ proyecto2.addEventListener('click', () => {
                     </div>
 
                     <div class="texto-contenedor">
-                        <h2>MovieApp</h2>
+                        <h2 translate="no">MovieApp</h2>
 
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia provident minima iure rerum aperiam modi cumque eius, corrupti doloribus. Distinctio ut dolores nemo error sed pariatur ipsa culpa impedit nisi.</p>
 
@@ -129,7 +129,7 @@ proyecto3.addEventListener('click', () => {
                     </div>
 
                     <div class="texto-contenedor">
-                        <h2>RealState</h2>
+                        <h2 translate="no">RealState</h2>
 
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia provident minima iure rerum aperiam modi cumque eius, corrupti doloribus. Distinctio ut dolores nemo error sed pariatur ipsa culpa impedit nisi.</p>
 
@@ -185,7 +185,7 @@ proyecto4.addEventListener('click', () => {
                     </div>
 
                     <div class="texto-contenedor">
-                        <h2>Simple Phisycs</h2>
+                        <h2 translate="no">Simple Phisycs</h2>
 
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia provident minima iure rerum aperiam modi cumque eius, corrupti doloribus. Distinctio ut dolores nemo error sed pariatur ipsa culpa impedit nisi.</p>
 
@@ -241,7 +241,7 @@ proyecto5.addEventListener('click', () => {
                     </div>
 
                     <div class="texto-contenedor">
-                        <h2>Desing</h2>
+                        <h2 translate="no">Desing</h2>
 
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia provident minima iure rerum aperiam modi cumque eius, corrupti doloribus. Distinctio ut dolores nemo error sed pariatur ipsa culpa impedit nisi.</p>
 
