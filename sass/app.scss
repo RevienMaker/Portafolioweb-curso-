@@ -1,0 +1,13 @@
+@import 'base/variables';
+@import 'base/normalize';
+@import 'base/globales';
+@import 'base/mixins';
+
+// layout
+@import 'layout/header';
+@import 'layout/aboutMe';
+@import 'layout/skills';
+@import 'layout/separacion';
+@import 'layout/portafolio';
+@import 'layout/contacto';
+@import 'layout/footer';

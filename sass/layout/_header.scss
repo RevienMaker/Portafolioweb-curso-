@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
+    background-color: $color-principal;
+
+    .header_presentacion{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem;
+
+        h1{
+            font-size: 4rem;
+            margin: 0;
+
+        }
+        span{
+            font-family: $fuente-principal;
+            font-weight: 500;
+        }
+        p{
+            font-size: 1.5rem;
+            margin: 0;
+        }
+    }
+
+    .header_img{
+        img{
+            width: 400px;
+        }
+        @include telefono {
+            img{
+                width: 300px;
+            }
+        }
+    }
+
+    .header_arrow{
+        width: 60px;
+    }
+}

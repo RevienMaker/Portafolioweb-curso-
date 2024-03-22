@@ -1,0 +1,100 @@
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: $color-amarillo;
+    padding: 3rem;
+    padding-bottom: 125px;
+
+    -webkit-box-shadow: inset 0px 10px 42px 5px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: inset 0px 10px 42px 5px rgba(0, 0, 0, 0.75);
+        box-shadow: inset 0px 10px 42px 5px rgba(0, 0, 0, 0.75);
+    
+
+    .titulo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        font-family: $fuente-secundaria;
+        font-weight: 800;
+
+        span{
+            padding: 10px;
+            font-family: $fuente-secundaria;
+            font-size: 3rem;
+        }
+    }
+
+    .skills-contenedor{
+        display: flex;
+        flex-direction: column;
+        min-width: 550px;
+        min-width: 550px;
+        gap: 3rem;
+        color: $color-claro;
+        background-color: $color-gris;
+        padding: 3rem;
+        border-radius: 1.5rem;
+        padding-bottom: 5rem;
+
+        @include tablet{
+            min-width: 425px;
+        }
+        @include telefono {
+            min-width: 350px;
+        }
+
+        -webkit-box-shadow: 0px 10px 42px 5px rgba(0, 0, 0, 0.75);
+            -moz-box-shadow: 0px 10px 42px 5px rgba(0, 0, 0, 0.75);
+            box-shadow: 0px 10px 42px 5px rgba(0, 0, 0, 0.75);
+        
+        .skills-group{
+            @include grid(3, 3rem, center);
+
+            @include tablet{
+                @include grid(2, 1.5rem, center);
+
+                .skills-bg {
+                    h3 {
+                        font-size: 1rem;
+                        margin-bottom: 1rem;
+                    }
+            
+                    img {
+                        width: 80px;
+                    }
+                
+                }
+            }
+            @include telefono{
+                .skills-bg {
+                    h3 {
+                        font-size: 1rem;
+                        margin-bottom: 1rem;
+                    }
+            
+                    img {
+                        width: 60px;
+                    }
+                
+                }
+            }
+            
+            .skills-bg {
+                h3{
+                    font-size: 1.5rem;
+                    margin-bottom: 1.5rem;
+                }
+                img {
+                    width: 100px;
+                }
+                
+            }
+        }
+    }
+}
